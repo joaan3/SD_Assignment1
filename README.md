@@ -1,4 +1,5 @@
-SD_TASK1: ONLINE CHAT APPLICATION
+**SD_TASK1: ONLINE CHAT APPLICATION**
+
 This project is a chat application built using Python, gRPC, and RabbitMQ. It provides various features, including private chats, persistent group chats, transient group chats, an insult channel and a discovery mechanism that allows users to find other available users and their different chat rooms.
 
 RUNNING THE CHAT APPLICATION
@@ -9,6 +10,7 @@ RUNNING THE CHAT APPLICATION
 5. You need to have RabbitMq installed and running to use some faetures. If you don't have it, execute the following script: /bin/bash ./rabbitmqscript.sh
 
 FEATURES
+
 •	PRIVATE CHATS: Users can engage in private conversations with other users.
 •	GROUP CHATS: Users can participate in group chats which can be persistent or transient.
 •	CHAT DISCOVERY: Users can discover all connected clients and obtain a list of all active chats.
