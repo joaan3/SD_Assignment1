@@ -12,8 +12,11 @@ RUNNING THE CHAT APPLICATION
 FEATURES
 
 •	PRIVATE CHATS: Users can engage in private conversations with other users.
+
 •	GROUP CHATS: Users can participate in group chats which can be persistent or transient.
+
 •	CHAT DISCOVERY: Users can discover all connected clients and obtain a list of all active chats.
+
 •	INSULT CHANNEL: A dedicated channel where users can send and receive insults.
 
 USAGE
