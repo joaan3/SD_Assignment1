@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package ChatPrivado;
+
+// Mensaje que se enviará entre clientes
+message ChatMessage {
+    string sender = 1;
+    string receiver = 2;
+    string ip = 3;
+    string port = 4;
+    string message = 5;
+}
+
+// Respuesta a una solicitud de envío de mensaje
+message ChatResponse {
+    bool success = 1;
+    string response = 2;
+}
+
+
+// Servicio que define cómo se enviarán y recibirán los mensajes
+service ChatService {
+    // RPC para enviar mensajes a otro cliente
+    rpc SendMessage(ChatMessage) returns (ChatResponse);
+
+    // RPC para recibir mensajes del servidor
+    rpc ReceiveMessage(ChatMessage) returns (ChatResponse);
+}
